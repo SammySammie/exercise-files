@@ -1,9 +1,10 @@
 name: Hello World
 on: [push]
 jobs:
-  say-hello:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-    uses: actions/checkout@2.0.0
-    - run: echo Hello, world!
+   say-hello:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Checkout
+      uses: actions/checkout@2.0.0
+      - run: echo Hello, world!
+      
